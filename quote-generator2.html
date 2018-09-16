@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Random quote generator!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="main-header" class="bg-success text-center text-white p-4 mb-3">
+      <div class="container">
+        <h1 id="header-title">Quote generator</h1>
+      </div>
+    </header>
+    <div class="container">
+    
+    <div class="card">
+        <div class="card-header">
+            Choose the number of quotes first:
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked="checked"> 1
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5
+                </label>
+              </div>
+          </div>
+      <div class="card-body">
+ 
+     <form>
+      
+       <div class="form-group">
+         <label for="quote-type">Select unexpected quotes from:</label>
+         <select class="form-control" id="quote-type">
+           <option value="alan">Alan Watts</option>
+           <option value="yoda">Yoda</option>
+         </select>
+       </div>
+      
+       
+     </form>
+     </div>
+  </div>
+<div class="container text-center mt-4">
+  <button id="quote-button" type="button" class="btn btn-success btn-lg">Generate!</button>
+</div>
+    </div>
+<br>
+
+<div class="container" id="quote-container">
+
+  <ol id="quote-random">
+    
+    
+    
+      
+   
+  </ol>
+</div>
+
+
+
+   
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="quote-generator2.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
