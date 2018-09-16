@@ -1,0 +1,15 @@
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "quote generator",
+  "main": "quote-generator2.js",
+  "scripts": {
+    "deploy": "gh-pages -d project5"
+  },
+  "author": "koci54",
+  "license": "MIT",
+  "homepage": "https://koci54.github.io/quote-generator",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
