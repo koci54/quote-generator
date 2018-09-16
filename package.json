@@ -5,11 +5,19 @@
   "main": "quote-generator2.js",
   "homepage": "https://koci54.github.io/quote-generator",
   "scripts": {
-    "deploy": "gh-pages -d /"
+    "deploy": "gh-pages -d ./"
   },
   "author": "koci54",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koci54/quote-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koci54/quote-generator/issues"
   }
 }
