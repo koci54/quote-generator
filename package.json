@@ -2,8 +2,8 @@
   "name": "project5",
   "version": "1.0.0",
   "description": "quote generator",
-  "main": "dist/quote-generator2.js",
-  "homepage": "https://koci54.github.io/quote-generator",
+  "main": "quote-generator2.js",
+  "homepage": "https://koci54.github.io/quote-generator2",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
